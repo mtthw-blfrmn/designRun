@@ -1,0 +1,37 @@
+{
+  "name": "designrun",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A local agent workspace for product design.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtthw-blfrmn/designRun.git"
+  },
+  "homepage": "https://github.com/mtthw-blfrmn/designRun#readme",
+  "bugs": {
+    "url": "https://github.com/mtthw-blfrmn/designRun/issues"
+  },
+  "workspaces": [
+    "app"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "npm run index && npm run build --workspace=designrun-app",
+    "lint": "npm run lint --workspace=designrun-app",
+    "test": "node --test scripts/*.test.mjs",
+    "validate": "node scripts/validate-workspace.mjs",
+    "index": "node scripts/build-workspace-index.mjs",
+    "new:project": "node scripts/new-project.mjs",
+    "new:deliverable": "node scripts/new-deliverable.mjs",
+    "new:reference": "node scripts/new-reference.mjs",
+    "check": "npm run validate && npm test && npm run lint && npm run build",
+    "release:check": "npm run check && node scripts/check-public-release.mjs && npm audit --audit-level=high"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "yaml": "2.9.0"
+  }
+}

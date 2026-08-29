@@ -1,0 +1,3 @@
+interface:
+  display_name: "Product Decision"
+  short_description: "Resolve a product choice through evidence and tradeoffs"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "To-do extractor"
+  short_description: "Turn messy sources into triage-ready tasks"
+  default_prompt: "Extract every actionable to-do, distinguish explicit from inferred work, and preserve short source context."

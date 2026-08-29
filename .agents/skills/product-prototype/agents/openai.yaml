@@ -1,0 +1,3 @@
+interface:
+  display_name: "Product Prototype"
+  short_description: "Build the smallest working product slice that can answer a design question"

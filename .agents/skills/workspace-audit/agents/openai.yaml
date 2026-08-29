@@ -1,0 +1,3 @@
+interface:
+  display_name: "Workspace Audit"
+  short_description: "Audit workspace integrity, drift, and privacy risk"

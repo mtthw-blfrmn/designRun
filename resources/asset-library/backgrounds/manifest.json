@@ -1,0 +1,17 @@
+{
+  "name": "Spectral gradient background examples",
+  "category": "Backgrounds",
+  "source": "Recovered from the original local source-workspace asset library",
+  "license": "owner-approved-template-example",
+  "redistribution": "allowed",
+  "assets": [
+    "resources/asset-library/backgrounds/spectral-gradient/dark/spectral-gradient-dark-04.jpg",
+    "resources/asset-library/backgrounds/spectral-gradient/dark/spectral-gradient-dark-34.jpg",
+    "resources/asset-library/backgrounds/spectral-gradient/light/spectral-gradient-light-41.jpg",
+    "resources/asset-library/backgrounds/spectral-gradient/light/spectral-gradient-light-43.jpg"
+  ],
+  "supporting_files": [
+    "resources/asset-library/backgrounds/contact-sheets/spectral-gradient-dark-contact-sheet.jpg",
+    "resources/asset-library/backgrounds/contact-sheets/spectral-gradient-light-contact-sheet.jpg"
+  ]
+}

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and workflow ideas
+    url: https://github.com/mtthw-blfrmn/designRun/discussions
+    about: Ask for help or discuss how designRun should evolve.
+  - name: Security report
+    url: https://github.com/mtthw-blfrmn/designRun/security/advisories/new
+    about: Report a vulnerability privately.

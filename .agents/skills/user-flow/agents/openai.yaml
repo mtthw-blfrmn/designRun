@@ -1,0 +1,3 @@
+interface:
+  display_name: "User Flow"
+  short_description: "Model user intent, system states, and recovery paths"

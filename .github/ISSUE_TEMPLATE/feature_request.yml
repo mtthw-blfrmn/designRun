@@ -1,0 +1,39 @@
+name: Feature request
+description: Propose an improvement grounded in a recurring product-design workflow.
+title: "[Proposal]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: Propose a reusable workflow improvement without including private product or customer material.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Recurring problem
+      description: What repeatedly becomes difficult, ambiguous, or wasteful?
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current workaround
+      description: How do designers or agents handle it today?
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed direction
+      description: Describe the smallest change that would improve the workflow without adding unnecessary prescription.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and tradeoffs
+      description: Where has the need appeared, and what complexity or risk would this introduce?
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Boundaries
+      options:
+        - label: This proposal can be explained without private product data or non-redistributable material.
+          required: true

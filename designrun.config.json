@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "workspaceName": "designRun",
+  "tasteFile": "taste/taste.md",
+  "todosFile": "knowledge/todos.md",
+  "inspirationFile": "inspiration/references.md",
+  "inspirationDirectory": "inspiration/library",
+  "designSystemFile": "resources/design-system.md",
+  "toolsFile": "resources/tools.md",
+  "toolsDirectory": "resources/tool-library",
+  "resourcesDirectory": "resources",
+  "projectsDirectory": "projects",
+  "patternsDirectory": "patterns",
+  "skillsDirectory": ".agents/skills",
+  "templatesDirectory": "templates",
+  "localAppPort": 4100,
+  "indexing": {
+    "maximumMarkdownBytes": 1048576,
+    "maximumIndexBytes": 20971520,
+    "ignoredDirectoryNames": [
+      ".git",
+      ".next",
+      ".vinext",
+      ".wrangler",
+      "build",
+      "coverage",
+      "dist",
+      "node_modules",
+      "private",
+      "source-files",
+      "vendor"
+    ],
+    "ignoredPathPrefixes": []
+  }
+}
